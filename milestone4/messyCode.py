@@ -1,4 +1,9 @@
-def test(word):
-    return print("testing", word)
+#def factorial(int num):
+ #   if (n==1) return n;
+  #  return n * factorial(n-1);
 
-test("input")
+def f(n):
+    if n<=1:return 1; 
+    else: return n*f(n-1)
+
+print(f(4))
