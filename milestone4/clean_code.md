@@ -18,3 +18,18 @@ What issues did tabnine detect:
 - Formatted code in more readable format
 - Removed unused variables
 - Formatting made code more readable compared to inital
+
+Naming Variables & Functions #42
+
+What makes a good variable or function name?
+- Not vague (e.g. x, y)
+- Uses a naming convetion consistently
+- Meaningful name (e.g. travel_time())
+- Not overly descriptive
+
+What issues can arise from poorly named variables?
+- When looking back at the code, you can get confused as to what each variable represents and its use 
+- For colloborators, it can be difficult to understand what vague variables represent and their use
+
+How did refactoring improve code readability?
+- Refactoring allows for a variable name to be changed, affecting every function and instance where that variable is used, changing it to 'refactored' variable name (ie changing every x variable in the codebase to the new name it was given)
