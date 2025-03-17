@@ -45,3 +45,13 @@ How did refactoring improve the structure of the code?
 - Breaking down the complex functions into smaller functions allows for easier and more understandable code
 - Code is easier to update and improve
 - Better reusability of functions
+
+Avoiding Code Duplication #44
+What were the issues with duplicated code?
+- Redudant code
+- Larger codebase
+- Higher chance of bugs
+- Less efficient
+
+How did refactoring improve maintainability?
+- As larger functions are broken down into smaller ones, each function has its own singular purpose making it easier to maintain (ie find errors, update, fix)
