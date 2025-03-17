@@ -33,3 +33,15 @@ What issues can arise from poorly named variables?
 
 How did refactoring improve code readability?
 - Refactoring allows for a variable name to be changed, affecting every function and instance where that variable is used, changing it to 'refactored' variable name (ie changing every x variable in the codebase to the new name it was given)
+
+Writing Small, Focused Functions #43
+
+Why is breaking down functions beneficial?
+- The code is more reusable as it does not have multiple purposes within one function, thus reduciung redudancy (repeating of logic)
+- Easier to debug if each function has its own purpose rather than all of it within one function
+- Easier to undertsand the purpose of the function if it does not have multiple jobs within it
+
+How did refactoring improve the structure of the code?
+- Breaking down the complex functions into smaller functions allows for easier and more understandable code
+- Code is easier to update and improve
+- Better reusability of functions
