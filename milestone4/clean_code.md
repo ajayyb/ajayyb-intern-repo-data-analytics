@@ -55,3 +55,29 @@ What were the issues with duplicated code?
 
 How did refactoring improve maintainability?
 - As larger functions are broken down into smaller ones, each function has its own singular purpose making it easier to maintain (ie find errors, update, fix)
+
+Refactoring Code for Simplicity #45
+
+
+**FIT2099 (show code pricniples used)
+
+Commenting & Documentation #46
+
+When should you add comments?
+- For complex functions
+- Top of each class should have a doc string (author, purpose, date, version, etc)
+
+When should you avoid comments and instead improve the code?
+- when code is simple to understand (comments not necessary)
+- When comments are used to cover poor naming conventions (ie n = get_comments() vs comment_count = get_comments())
+
+Handling Errors & Edge Cases #47
+
+What was the issue with the original code?
+- 
+- *(Add edge case (FIT2099 code))
+
+How does handling errors improve reliability?
+- Ensures program can handle unexpected situations without crashing (e.g. 1/0, where this erorr is raised and handeled such that program does not crash)
+
+Writing Unit Tests for Clean Code #48
