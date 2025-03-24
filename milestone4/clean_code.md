@@ -81,3 +81,12 @@ How does handling errors improve reliability?
 - Ensures program can handle unexpected situations without crashing (e.g. 1/0, where this erorr is raised and handeled such that program does not crash)
 
 Writing Unit Tests for Clean Code #48
+
+How do unit tests help keep code clean?
+- Provides feedback on whether any changes have resulted in bugs
+- Provides insight on how a function should perform based on the unit tests
+- Generally provides insight on whether the function can be improvied as a function which has a single purpose can be tested easily
+
+What issues did you find while testing?
+- Assertion errors, func(3) == 4, where the assertion was set to assert func(3) == 5 although for test purposes
+- When assesrtions are all under one function, if one is tripped, the rest do not get tested, however when under seperate functions if both assertions are tripped, then both are asserted 
