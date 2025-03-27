@@ -1,0 +1,18 @@
+stages:
+  - linting
+
+markdown_lint:
+  image: node:20
+  stage: linting
+  script:
+    - npm install -g markdownlint-cli cspell
+    - markdownlint '**/*.md' --ignore node_modules
+    - cspell '**/*.md'
+  rules:
+    - if: '$CI_MERGE_REQUEST_ID'
+
+cache:
+  paths:
+    - node_modules/
+
+
